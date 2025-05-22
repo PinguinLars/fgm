@@ -24,3 +24,8 @@ G - Open Customization Settings
 
 The Female Gender Mod is licensed under the GNU LGPLv3, a free and open-source license. For more information,
 please see the [license file](./LICENSE).
+
+## Installation
+
+Get a .jar file at [the mod page](https://modrinth.com/mod/female-gender/versions) and put it in your mods folder
+Or build from source with `./gradlew build`
