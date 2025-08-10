@@ -30,6 +30,9 @@ bin/
 .classpath
 .project
 
+# neovim
+.factorypath
+
 # macOS
 
 .DS_Store
