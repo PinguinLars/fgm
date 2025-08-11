@@ -56,12 +56,11 @@ loom {
 	accessWidenerPath = file("src/main/resources/wildfire_gender.accesswidener")
 }
 
-//idk what this does but it isn't compatible with gradle 9.0
-// jar {
-// 	from("LICENSE") {
-//     rename { "${it}_${project.archivesBaseName}"}
-// 	}
-// }
+jar {
+    from("LICENSE") {
+        into(".")
+    }
+}
 
 // configure the maven publication
 publishing {
